@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import pet, { ANIMALS } from "@frontendmasters/pet";
 import Results from "./Results";
+import "babel-polyfill";
 import useDropdown from "./useDropdown";
 
 const SearchParams = () => {
